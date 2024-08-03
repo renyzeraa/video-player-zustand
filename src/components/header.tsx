@@ -1,4 +1,4 @@
-import { useStore } from "../zustand-store"
+import { useStore } from "../store"
 
 interface HeaderProps {
   title: string

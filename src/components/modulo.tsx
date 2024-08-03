@@ -1,7 +1,7 @@
 import { ChevronDown } from "lucide-react";
 import { AssuntoModulo } from "./assunto-modulo";
 import * as Collapsible from '@radix-ui/react-collapsible';
-import { useStore } from "../zustand-store";
+import { useStore } from "../store";
 
 interface ModuloProps {
   title: string

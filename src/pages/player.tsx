@@ -3,7 +3,7 @@ import { Header } from '../components/header'
 import { Video } from '../components/video'
 import { Modulo } from '../components/modulo'
 import { useEffect } from 'react'
-import { useCurrentLesson, useStore } from '../zustand-store'
+import { useCurrentLesson, useStore } from '../store'
 
 export function Player() {
   const { course, load } = useStore(({ course, load }) => (
