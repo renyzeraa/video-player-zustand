@@ -1,4 +1,4 @@
-import { useAppSelector } from "../store"
+import { useStore } from "../zustand-store"
 
 interface HeaderProps {
   title: string
@@ -6,7 +6,7 @@ interface HeaderProps {
 }
 
 export function Header({ title, description }: HeaderProps) {
-  const isLoading = useAppSelector((state) => state.player.isLoading)
+  const isLoading = useStore(store => store.isLoading)
 
   if (isLoading) {
     return <h2 className="text-2xl font-semibold">Carregando...</h2>
