@@ -1,14 +1,14 @@
-# Estudo de Implementação do Redux Toolkit em React
+# Estudo de Implementação do Zustand em React
 
-Este projeto tem como objetivo estudar a implementação do Redux Toolkit em uma aplicação React. A aplicação simula um curso fictício, onde o usuário pode assistir a vídeos de aulas e navegar entre módulos e aulas. A estilização do site é feita com Tailwind CSS.
+Este projeto tem como objetivo estudar a implementação do Zustand em uma aplicação React. A aplicação simula um curso fictício, onde o usuário pode assistir a vídeos de aulas e navegar entre módulos e aulas. A estilização do site é feita com Tailwind CSS.
 
 ## Instalação
 
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/renyzeraa/video-player-redux.git
-cd video-player-redux
+git clone https://github.com/renyzeraa/video-player-zustand.git
+cd video-player-zustand
 ```
 
 2. Instale as dependências do projeto:
@@ -35,13 +35,6 @@ Vai rodar no http://localhost:5173/
 
 O JSON Server é utilizado para simular uma API RESTful. O arquivo server.json contém a estrutura de dados das aulas do curso fictício, basta acessar o arquivo na raiz do projeto para ver os dados.
 
-## Redux
-
-O Redux Toolkit é utilizado para gerenciar o estado da aplicação. Os arquivos principais relacionados ao Redux são:
-
-- store/index.js: Configura a store do Redux.
-- store/slices/player.js: Define o slice para gerenciar o estado dos cursos.
-
 ## Tailwind CSS
 
 O Tailwind CSS é utilizado para estilizar a aplicação.
@@ -49,10 +42,10 @@ A configuração está no arquivo tailwind.config.js
 
 ## Funcionalidades Principais
 
-1. Visualização de Vídeos: Os usuários podem assistir a vídeos de aulas.
-2. Navegação entre Módulos e Aulas: A aplicação permite navegar entre diferentes módulos e aulas.
-3. Gerenciamento de Estado: O Redux Toolkit é utilizado para gerenciar o estado dos módulos e aulas.
-4. Estilização com Tailwind CSS: A aplicação é estilizada utilizando classes utilitárias do Tailwind CSS.
+1. **Visualização de Vídeos:** Os usuários podem assistir a vídeos de aulas.
+2. **Navegação entre Módulos e Aulas:** A aplicação permite navegar entre diferentes módulos e aulas.
+3. **Gerenciamento de Estado:** O Zustand é utilizado para gerenciar o estado dos módulos e aulas.
+4. **Estilização com Tailwind CSS:** A aplicação é estilizada utilizando classes utilitárias do Tailwind CSS.
 5. Antes de carregar os vídeos é alicado uma animação de Loading.
 
 ### Contato
